@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #FFD200; /* Yellow background color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+
+h1 {
+    font-size: 36px;
+    color: #FF3D00; /* Red heading color */
+    margin-bottom: 20px;
+}
+
+#letter-container {
+    font-size: 150px;
+    margin-top: 30px;
+    color: #FF3D00; /* Red letter color */
+}
+
+#next-button {
+    background-color: #FF3D00; /* Red button color */
+    color: #fff; /* Button text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#next-button:hover {
+    background-color: #FF5733; /* Darker red color on hover */
+}
