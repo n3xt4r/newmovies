@@ -23,14 +23,12 @@ Navigate to the Directory Containing the JAR:
 Use the cd command to navigate to the directory where you downloaded the JAR file.
 Example (on Windows):
 
-bash
-Copy code
 cd path/to/your/directory
+
 Run the JAR File:
 
 Use the following command to run the MovieApiClient JAR:
-bash
-Copy code
+
 java -jar MovieApiClient-1.0-SNAPSHOT-jar-with-dependencies.jar
 View the Output:
 
@@ -38,14 +36,12 @@ The application will fetch data from The Movie Database (TMDb) API.
 You will see the movie details including original_title, overview, release_date, and vote_average printed in the terminal.
 Example Output
 
-less
-Copy code
 Original Title: [Movie Title]
 Overview: [Movie Overview]
 Release Date: [Release Date]
 Vote Average: [Vote Average]
-Notes
 
+Notes
 Ensure you have an active internet connection while running the application, as it fetches data from an online API.
 Make sure your system's firewall allows Java to access the internet, especially if you encounter connection issues.
 License
